@@ -2,13 +2,6 @@ grails.project.work.dir = 'target'
 grails.project.source.level = 1.6
 grails.project.dependency.resolver = "maven"
 
-// Private repository for publishing artifacts
-grails.project.repos.LAB.url = "https://api.bintray.com/maven/solaechea/solaechea-dev/org.grails.plugins.hibernate-filter/;publish=1"
-grails.project.repos.LAB.username = "solaechea"
-grails.project.repos.LAB.password = "the key"
-grails.project.repos.default = "LAB"
-
-
 grails.project.dependency.resolution = {
 
 	inherits 'global'
